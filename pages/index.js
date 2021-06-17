@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { getSortedPostsData } from './lib/posts'
+import { getSortedPostsData } from '../lib/posts'
 import Layout from "../components/layout";
 import utilStyles from '../styles/utils.module.css'
 export default function Home({ allPostsData }) {
